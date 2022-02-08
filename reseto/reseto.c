@@ -57,7 +57,7 @@ int main(){
 
   int numInputs = scanf("%d %d", &n, &k);
 
-  if (numInputs != 2){
+  if (numInputs != 2 || k >= n){
     printf("bad input!!\n");
     exit(1);
   }
